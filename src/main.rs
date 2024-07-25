@@ -139,7 +139,6 @@ fn play_turn(
 
         println!("What do you think the word could be?");
 
-        // Does this need to be a mut?
         let mut user_input = String::new();
         stdin()
             .read_line(&mut user_input)
